@@ -6,24 +6,36 @@ This lab is designed to get you familiar with Python Data Types, Variables, and 
 """
     
 # 1. Create a variable called "name" and assign it the value of your name. Print the variable.
+name = "Paul"
+print(name)
 
+print("My name is "+ name)
 # 2. Create a variable called "age" and assign it the value of your age. Print the variable.
-
+age = 21
+teacher_age = 26
+print(age)
+print(age + teacher_age)
 # 3. Create a variable called "favorite_color" and assign it the value of your favorite color. Print the variable.
-
+favorite_color = "blue"
+print(favorite_color)
 # 4. Create a variable called "favorite_movie" and assign it the value of your favorite movie. Print the variable.
-
+favorite_movie = "Avengers"
+print(favorite_movie)
 # 5. Use string concatenation to print the following sentence: "Hello, my name is <name>. I am <age> years old. My favorite color is <favorite_color> and my favorite movie is <favorite_movie>."
 # Note: punctuation and capitalization matters. Make sure your sentence matches the one above exactly.
-
+print("My favorite movie is " + favorite_movie )
 # 6. Create a variable called "my_age_in_dog_years" and assign it the value of your age multiplied by 7. 
-
+my_age_in_dog_years = 21 * 7
+print(my_age_in_dog_years + age)
 # 7. Create a variable called "days_in_a_year" and assign it the value of 365.
-
+days_in_a_year = 365
+print(days_in_a_year)
 # 8. Create a variable called "days_alive" and assign it the value of your age multiplied by the number of days in a year.
-
+days_alive = age * days_in_a_year
+print(days_alive)
 # 9. Create a variable called "days_alive_in_dog_years" and assign it the value of your age in dog years multiplied by the number of days in a year.
-
+days_alive_in_dog_years = my_age_in_dog_years * days_in_a_year
+print(days_alive_in_dog_years)
 # 10. Create a chart that shows the following information:
 # - Your name
 # - Your age
@@ -33,10 +45,13 @@ This lab is designed to get you familiar with Python Data Types, Variables, and 
 # - Number of days in a year
 # - Number of days you have been alive
 # - Number of days you have been alive in dog years
-
+print("==================================")
+print("| Name: " + name, end="\t\t\t |\n")
+print("| Age: " + str(age), end="\t\t\t |\n")
 
 """
 Make it look pretty as well as informative. Use the following format:
+
 ==================================
 | Name: John Doe                 |
 | Age: 25                        |
